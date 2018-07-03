@@ -1,0 +1,14 @@
+[
+  {
+    "type": "container",
+    "title": "VT hash Query Plugin",
+    "description": "Plugin to get VT score",
+    "categories": ["docker"],
+    "platform": "linux",
+    "image": "python:2",
+    "ports": [
+      "60000/tcp"
+    ]
+    }
+]
+  
