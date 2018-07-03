@@ -5,10 +5,23 @@
     "description": "Plugin to get VT score",
     "categories": ["docker"],
     "platform": "linux",
-    "image": "python:2",
+    "logo": "https://www.fireeye.com/content/dam/fireeye-www/fw/images/fireeye-2-color.png",
+    "image": "telemetry_vt_plugin:latest",
     "ports": [
       "60000/tcp"
     ]
-    }
+    },
+  {
+    "type": "container",
+    "title": "Telemetry Simulator Plugin",
+    "description": "Plugin to simulate fake telemetry",
+    "categories": ["docker"],
+    "platform": "linux",
+    "logo": "https://www.fireeye.com/content/dam/fireeye-www/fw/images/fireeye-2-color.png",
+    "image": "telemetry_vt_plugin:latest",
+    "ports": [
+      "60000/tcp"
+    ]
+  }
 ]
   
