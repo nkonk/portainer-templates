@@ -22,6 +22,18 @@
     "ports": [
       "60000/tcp"
     ]
+  },
+  {
+    "type": "container",
+    "title": "Rekall Memory Forensics container with dashboard",
+    "description": "Rekall Memory Forensics",
+    "categories": ["docker"],
+    "platform": "linux",
+    "logo": "https://www.fireeye.com/content/dam/fireeye-www/fw/images/fireeye-2-color.png",
+    "image": "remnux/rekall",
+    "ports": [
+      "8000/tcp"
+    ]
   }
 ]
   
